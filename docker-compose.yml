@@ -1,0 +1,5 @@
+rabbitmq:
+  image: rabbitmq:management
+  ports:
+    - "56720:56720"
+    - "1567:1567"
