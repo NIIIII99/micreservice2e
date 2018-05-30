@@ -11,8 +11,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import javax.sound.midi.Receiver;
-
 @SpringBootApplication
 public class Chap3AmqpApplication {
     static final String topicExchangeName = "spring-boot-exchange";
